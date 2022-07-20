@@ -6,6 +6,7 @@
     --color-body: #918ca4;
     --color-border: #ccc;
     --border-radius: 30px;
+    --color-body-darker: #5c5577;
 }
 
 *, *::after, *::before {
@@ -393,4 +394,54 @@ a {
 
 .media__image {
     margin-top: 1rem;
+}
+
+/* Quotes */
+
+.quote__text {
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--color-body-darker);
+    line-height: 1.7;
+}
+
+.quote__text::before {
+    content: open-quote;
+}
+
+.quote__text::after {
+    content: close-quote;
+}
+
+.quote__author{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+}
+
+.quote__description {
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    margin-left: 0.4rem;
+    opacity: 40%;
+    color: var(--color-headings);
+}
+
+.quote .quote__line {
+    position: relative;
+    bottom: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .quote__text {
+        font-size: 2rem;
+    }
+
+    .quote__author {
+        font-size: 2.4rem;
+    }
+
+    .quote__description {
+        font-size: 1.6rem;
+    }
 }

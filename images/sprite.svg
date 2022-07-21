@@ -178,11 +178,29 @@
     <g></g>
     <g></g>
   </symbol>
-  <symbol id="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
-    <defs></defs>
-    <circle cx="25.5" cy="25.5" r="25.5"></circle>
-    <rect x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"></rect>
-    <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"></rect>
+  <symbol version="1.1" id="chevron" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 185.343 185.343">
+    <g>
+      <g>
+        <path d="M51.707,185.343c-2.741,0-5.493-1.044-7.593-3.149c-4.194-4.194-4.194-10.981,0-15.175
+			l74.352-74.347L44.114,18.32c-4.194-4.194-4.194-10.987,0-15.175c4.194-4.194,10.987-4.194,15.18,0l81.934,81.934
+			c4.194,4.194,4.194,10.987,0,15.175l-81.934,81.939C57.201,184.293,54.454,185.343,51.707,185.343z"></path>
+      </g>
+    </g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 2" id="line">
     <path fill="#63c3ef" d="M0 0h50v2H0z"></path>
